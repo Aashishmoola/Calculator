@@ -1,0 +1,70 @@
+.container {
+    background-color: #757070;
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.display {
+    background-color: #aca4a4;
+    color: #132450;
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: solid black 2px;
+    padding: 8px 15px;
+    font: bold 30px Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.display>.expression {
+    align-self: self-start;
+}
+
+.display>.dispAns {
+    align-self: self-end;
+}
+
+.btnContainer {
+    background: #363636;
+    box-sizing: border-box;
+    width: 330px;
+    height: 300px;
+    padding: 0px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    font: bold 30px Arial;
+    border: solid black 1px;
+
+}
+
+.btnContainer>div {
+    background-color: rgb(235, 133, 16);
+    box-sizing: border-box;
+    width: 56px;
+    height: 56px;
+    border-radius: 15px;
+    margin: 0px 5px;
+    padding-top: 12px;
+    text-align: center;
+}
+.btnContainer>.del{
+    font-size: 25px;
+}
